@@ -8,10 +8,14 @@ application to upload images to digital ocean and view them using mongoDB
 
 ## Tools
 
-- [NodeJs](https://expressjs.com/es/) - Express
 - [Digital Ocean](https://www.digitalocean.com/) - Image storage
 - [Heroku](https://dashboard.heroku.com/) - Deployment
-- [MongoDB](https://www.mongodb.com/) - Image url storage
+
+## Tech Stack
+
+**Client:** Ejs, Css
+
+**Server:** Node, Express, MongoDB, AWS
 
 ## Deployment
 
@@ -47,17 +51,19 @@ Start the server
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`PORT`
+`PORT` : port to run the application locally
 
-`MONGODB_URI`
+`MONGODB_URI` : connecting to your MongoDB database
 
-`BUCKET_NAME`
+`BUCKET_NAME` : the name of the bucket on AWS or digitalOcean
 
-`AWS_ACCESS_KEY_ID`
+`AWS_ACCESS_KEY_ID` : the AWS Access KEY
 
-`AWS_SECRET_ACCESS_KEY`
+`AWS_SECRET_ACCESS_KEY` : the AWS secret ID
 
-`S3_ENPOINT`
+`S3_ENPOINT` : the S3 o digialOceanSpaces Endpoint
+
+[Setup AWS credentials](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
 
 ## License
 
